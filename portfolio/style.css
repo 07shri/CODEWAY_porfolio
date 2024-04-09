@@ -1,0 +1,141 @@
+header h1 {
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color:black; /* Blue header background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px 0; /* Vertical padding 20px, horizontal padding 0 */
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    margin-right: auto;
+    margin-top: 100px;;
+    top:20px;
+    right:20px;
+    float:right;
+}
+#about,
+#skills {
+    flex-grow: 1; /* Allow the sections to grow to fill the remaining space */
+    padding: 15px;
+    font-size:medium;
+}
+
+h2 {
+    color:whitesmoke;
+}
+
+#skills ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 30;
+}
+
+#skills ul li {
+    color:wheat;
+    margin-bottom: 15px; /* Add spacing between skills */
+}
+
+
+/* Style the project titles */
+.project h3 {
+    font-size: 1.5em;
+    background-color:none;
+    color:plum;
+    border:none;
+    
+    
+}
+
+/* Style the project descriptions */
+.project p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 5px;
+
+}
+
+/* Add spacing between projects */
+.project + .project {
+    margin-top: 45px;
+}
+
+
+.logo h1 {
+    margin: 0;
+    font-size: 43px;
+}
+
+.logo p {
+    margin: 5px 0;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color:white;
+}
+
+p {
+    color:wheat;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+header h1 {
+    color: #fff; 
+}
+
+#contact {
+    background-color:black; 
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: whitesmoke; 
+}
+
+#contact p {
+    margin: 5px 0;
+    color: white; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color:black; 
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue; 
+}
